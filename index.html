@@ -5,28 +5,22 @@
 <title>GIT</title>
 	<style>
 		body{margin: 0;}
-		img{max-width: 100%; vertical-align: top;}
+		img{max-width: 100%; vertical-align: top;display:block}
+		img #responsive{display: none}
+	@media screen (max-width:768px){
+		img #responsive{display: block}	
+		img{display: none}
+		}
 	</style>
 </head>
 
 <body>
+	<img src="img/invie-responsive.png" id="responsive"/>
 	<img src="img/header.jpg"/>
 	<img src="img/hero.jpg"/>
 	<img src="img/acustica.jpg"/>
 	<img src="img/clasica.jpg"/>
 	<img src="img/footer.jpg"/>
-	
-	
-	
-	<div class="swiper-container">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide"><img style="width: 60%;" src="img/logo_loading.gif"/></div>
-      <div class="swiper-slide"><img style="width: 90%;" src="img/repuestos_preview.gif"/></div>
-      <div class="swiper-slide">GS 3</div>
-      <div class="swiper-slide">GS 4</div>
-    </div>
-
-    <div class="swiper-pagination"></div>
   </div>
 </body>
 </html>
