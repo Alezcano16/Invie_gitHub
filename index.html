@@ -18,7 +18,7 @@
 	
 	
 	
-	<div class="swiper-container">
+	<div class="swiper-containerGaleria">
     <div class="swiper-wrapper">
       <div class="swiper-slide"><img style="width: 60%;" src="img/logo_loading.gif"/></div>
       <div class="swiper-slide"><img style="width: 90%;" src="img/repuestos_preview.gif"/></div>
@@ -27,6 +27,16 @@
     </div>
 
     <div class="swiper-pagination"></div>
+		
+		<script>
+    var swiper = new Swiper('.swiper-containerGaleria', {
+      pagination: {
+        el: '.swiper-pagination',
+        dynamicBullets: true,
+		 autoplay: true
+      },
+    });
+  </script>
   </div>
 </body>
 </html>
