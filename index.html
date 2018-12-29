@@ -5,24 +5,20 @@
 <title>GIT</title>
 	<style>
 		body{margin: 0;}
-		img{max-width: 100%; vertical-align: top;}
+		img{max-width: 100%; vertical-align: top;display:block}
+		img #responsive{display: none}
+	@media screen (max-width:768px){
+		img #responsive{display: block}	
+		img{display: none}
+		}
 	</style>
 </head>
 
 <body>
-<<<<<<< HEAD
-	<img src="img/header.jpg"/>
-	<img src="img/hero.jpg"/>
-	<img src="img/acustica.jpg"/>
-	<img src="img/clasica.jpg"/>
-	<img src="img/footer.jpg"/>
-<<<<<<< HEAD
-	
-  </div>
-=======
->>>>>>> hotfix
-=======
+
+	<img src="img/invie-responsive.png" id="responsive"/>
+
 	<img src="img/nueva-version.jpg"/>
->>>>>>> NuevaImagen
+
 </body>
 </html>
